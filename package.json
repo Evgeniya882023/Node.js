@@ -1,0 +1,33 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "test setting project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint",
+    "eslint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evgeniya882023/Node.js.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Evgeniya Malashenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evgeniya882023/Node.js/issues"
+  },
+  "homepage": "https://github.com/Evgeniya882023/Node.js#readme",
+  "dependencies": {
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2"
+  }
+}
